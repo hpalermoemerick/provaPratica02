@@ -1,0 +1,11 @@
+#lista-menu a{
+    padding: 0 10px;
+}
+
+#cor-laranja{
+    background-color: rgb(206, 104, 21);
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: rgb(206, 104, 21);
+}
