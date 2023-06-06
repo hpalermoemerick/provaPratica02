@@ -1,11 +1,31 @@
+:root{
+    --laranja: rgb(207, 99, 10);
+}
+
 #lista-menu a{
     padding: 0 10px;
 }
 
 #cor-laranja{
-    background-color: rgb(206, 104, 21);
+    background-color: var(--laranja);
 }
 
 .carousel-control-prev-icon,.carousel-control-next-icon{
-    background-color: rgb(206, 104, 21);
+    background-color: var(--laranja);
+}
+
+.fundo-orange:hover{
+    background-color: var(--laranja);
+    color: white;
+    border-radius: 5px;
+}
+
+#sobre1{
+    background-image: url("images/about-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.letra-laranja{
+    color: var(--laranja);
 }
