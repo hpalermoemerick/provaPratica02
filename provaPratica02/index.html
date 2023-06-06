@@ -11,7 +11,7 @@
     <div class="bg-white p-0">
         <nav id="barra-menu" class="navbar navbar-expand-lg bg-light navbar-light p-3 p-lg-0">
             <a href="index.html" class="navbar-brand d-block d-lg-none">
-                <h1 class="m-0 text-primary text-uppercase">Hotelier</h1>
+                <h1 class="m-0 text-dark text-uppercase">Live Dinner</h1>
             </a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
                 data-bs-target="#navbarCollapse">
@@ -22,19 +22,19 @@
                     <img src="/images/logo.png" class="ms-5 ps-5" alt="LOGO">
                 </div>
                 <div id="lista-menu" class="col-6 navbar-nav mr-auto fs-5">
-                    <a href="index.html" class="nav-item nav-link active text-dark">HOME</a>
-                    <a href="menu.html" class="nav-item nav-link text-dark">MENU</a>
-                    <a href="about.html" class="nav-item nav-link text-dark">ABOUT</a>
+                    <a href="index.html" id="cor-laranja" class="rounded nav-item nav-link active text-light p-3 fundo-orange">HOME</a>
+                    <a href="menu.html" class="nav-item nav-link p-3 fundo-orange">MENU</a>
+                    <a href="about.html" class="nav-item nav-link text-dark p-3 fundo-orange">ABOUT</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PAGES</a>
+                        <a href="#" class="nav-link dropdown-toggle p-3 text-dark" data-bs-toggle="dropdown">PAGES</a>
                         <div class="dropdown-menu rounded-0 m-0">
                             <a href="booking.html" class="dropdown-item p-2">Reservation</a>
                             <a href="team.html" class="dropdown-item p-2">Stuff</a>
                             <a href="testimonial.html" class="dropdown-item p-2">Gallery</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link text-dark">CONTACT</a>
-                    <a href="blog.html" class="nav-item nav-link text-dark">BLOG</a>
+                    <a href="contact.html" class="nav-item nav-link text-dark p-3 fundo-orange">CONTACT</a>
+                    <a href="blog.html" class="nav-item nav-link text-dark p-3 fundo-orange">BLOG</a>
                 </div>
             </div>
         </nav>
@@ -47,29 +47,33 @@
                     <div class="carousel-item active">
                         <img class="w-100" src="images/slider-01.jpg" alt="Image">
                         <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
-                            <div class="p-3" style="max-width: 700px;">
-                                <h6 class="section-title text-white mb-3 animated slideInDown">LUXURY LIVING</h6>
-                                <h1 class="display-3 text-white mb-4 animated slideInDown">Discover a Brand Luxurius
-                                    Hotel</h1>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our
-                                    Rooms</a>
-                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Book a Room</a>
+                            <div class="p-3 text-start" style="max-width: 700px; position: relative; top: -350px;">
+                                <h1 class="display-4 text-white mb-4 animated slideInDown fw-bold">Welcome To</h1>
+                                <h1 class="display-4 text-white mb-4 animated slideInDown fw-bold">Live Dinner Restaurant</h1>
+                                <a href="" id="cor-laranja" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">RESERVATION</a>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="carousel-item">
+                    <div class="carousel-item active">
                         <img class="w-100" src="images/slider-02.jpg" alt="Image">
-                        <div class="carousel-caption d-flex flex-column align-items-end justify-content-start">
-                            <div class="p-3" style="max-width: 700px;">
-                                <h6 class="section-title text-white mb-3 animated slideInDown">LUXURY LIVING</h6>
-                                <h1 class="display-3 text-white mb-4 animated slideInDown">Discover a Brand Luxurius
-                                    Hotel</h1>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our
-                                    Rooms</a>
-                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Book a Room</a>
+                        <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
+                            <div class="p-3 text-start" style="max-width: 700px; position: relative; top: -350px;">
+                                <h1 class="display-4 text-white mb-4 animated slideInDown fw-bold">Welcome To</h1>
+                                <h1 class="display-4 text-white mb-4 animated slideInDown fw-bold">Live Dinner Restaurant</h1>
+                                <a href="" id="cor-laranja" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">RESERVATION</a>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
+                    <div class="carousel-item active">
+                        <img class="w-100" src="images/slider-03.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
+                            <div class="p-3 text-start" style="max-width: 700px; position: relative; top: -350px;">
+                                <h1 class="display-4 text-white mb-4 animated slideInDown fw-bold">Welcome To</h1>
+                                <h1 class="display-4 text-white mb-4 animated slideInDown fw-bold">Live Dinner Restaurant</h1>
+                                <a href="" id="cor-laranja" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">RESERVATION</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
                     data-bs-slide="prev">
@@ -81,6 +85,23 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
+            </div>
+        </div>
+
+        <div id="sobre1" class="">
+            <!-- <img src="images/about-bg.jpg" width="100vw" height="" alt=""> -->
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="row ms-5 ps-5 pb-5">
+                    <div class="col-4 ms-5 pb-5">
+                        <h1>Welcome To <span class="letra-laranja">Live Dinner Restaurant</span></h1>
+                        <h6>Little Story</h6>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum hic tempora possimus iusto eaque reprehenderit fuga consectetur aspernatur, quia corrupti adipisci voluptas alias facilis ipsam odio aliquam eum similique voluptate!</p>
+                        <a href="" id="cor-laranja" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">RESERVATION</a>
+                    </div>
+                    <div class="col-6">
+                        <img src="images/about-img.jpg" width="60%" alt="">
+                    </div>
+                </div>
             </div>
         </div>
 
